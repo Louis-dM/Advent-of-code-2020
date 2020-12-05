@@ -61,7 +61,6 @@ BPseat <- function(r, c) {
 
 
 ### PART 1 ###
-
 seatIDs <- numeric(n)
 
 for (i in 1:n) {
