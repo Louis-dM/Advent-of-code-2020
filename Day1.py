@@ -15,6 +15,7 @@ def expcheck2(total):
             m = expenses[j]
             if n + m == total:
                 return(n*m)
+            
     return("Error")
             
 print(expcheck2(2020))
