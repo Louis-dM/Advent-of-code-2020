@@ -54,7 +54,10 @@ def foo():
     
     for i in range(N): # XMAS[i] is the first value in the sum
         for j in range(i, N): # XMAS[j-1] is the last value in the sum
+            if sum(XMAS[i:j]) > weakness:
+                break
             if sum(XMAS[i:j]) == weakness:
                 return([min(XMAS[i:j]), max(XMAS[i:j])])
+           
            
 print(sum(foo()))
