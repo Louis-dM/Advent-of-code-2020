@@ -49,7 +49,7 @@ print(weakness)
 ### DAY 2 ###
 
 def foo():
-    # returns first/last values in the sum
+    # returns smallest/greatest values in the sum
     # made it a function because its the easiest way to get out of loops when you're done with them
     
     for i in range(N): # XMAS[i] is the first value in the sum
